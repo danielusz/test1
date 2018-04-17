@@ -3,8 +3,11 @@ package test1;
 public class foo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World");
+		StringBuilder sBilder = new StringBuilder();
+		sBilder.append("Hello ");
+		sBilder.append("world!");
+
+		System.out.println(sBilder.toString());
 	}
 
 }
